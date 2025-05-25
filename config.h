@@ -1,7 +1,14 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
+/**
+ * @brief Зчитує конфігураційний файл та завантажує параметри (шлях до бази даних і ліцензійний ключ).
+ *
+ * Якщо файл не існує, створює новий з типовими значеннями.
+ * Також перевіряє ліцензію і створює файл бази даних, якщо він відсутній.
+ *
+ * @param config_filename Шлях до конфігураційного файлу.
+ */
 void read_config(const char *config_filename);
-void save_config(const char *config_filename);
 
 #endif

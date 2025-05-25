@@ -1,3 +1,10 @@
+/**
+ * @file main.c
+ * @author N3onTechF0X
+ * @date 2025-05-22
+ * @brief Мінімалістична база данних контактів у бінарному файлі.
+ * @license CCO 1.0 Universal
+ */
 #include <stddef.h>
 #include <stdio.h>
 #include <string.h>
